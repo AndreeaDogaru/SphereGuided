@@ -1,0 +1,10 @@
+out/
+data/
+__pycache__/
+*/__pycache__/
+*__pycache__/
+build
+data
+utils/libmcubes/mcubes.cpython-39-x86_64-linux-gnu.so
+utils/libmise/mise.cpython-39-x86_64-linux-gnu.so
+

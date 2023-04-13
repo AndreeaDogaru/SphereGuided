@@ -1,0 +1,15 @@
+spheres:
+  n_spheres: 15000
+  radius_scheduler:
+    min: 0.04
+    max: 0.4
+    beta: 3.5e-5
+sphere_lr: 1.0e-4
+i_warmup_spheres: 5000
+i_resample_spheres: 25000
+i_resample_wandering_spheres: 5000
+k_neighbors: 10
+repulsion_radius_factor: 2
+loss_factors:
+  origin: 1.0
+  repulsion: 0.0001
