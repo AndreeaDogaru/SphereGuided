@@ -67,11 +67,13 @@ We also provide easy-to-use evaluation scripts for DTU and Nerf Synthetic datase
 Should you find this research useful in your work, please cite:
 
 ```BibTeX
-@article{Dogaru2023SphereGT,
-  title={Sphere-Guided Training of Neural Implicit Surfaces},
-  author={Dogaru, Andreea and Ardelean, Andrei Timotei and Ignatyev, Savva and Zakharov, Egor and Burnaev, Evgeny},
-  journal={arXiv preprint arXiv:2209.15511},
-  year={2022}
+@InProceedings{Dogaru_2023_CVPR,
+  author    = {Dogaru, Andreea and Ardelean, Andrei-Timotei and Ignatyev, Savva and Zakharov, Egor and Burnaev, Evgeny},
+  title     = {Sphere-Guided Training of Neural Implicit Surfaces},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2023},
+  pages     = {20844-20853}
 }
 ```
 
