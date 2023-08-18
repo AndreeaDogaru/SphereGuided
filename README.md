@@ -22,7 +22,7 @@ cd unisurf
 python setup.py build_ext --inplace
 ```
 ## Data
-For the DTU dataset, as each method used its own version of the data, we recommend using the indications provided in the integrated repositories. For [NeuS](https://drive.google.com/file/d/1zgD-uTLjO8hXcjLqelU444rwS9s9-Syg/view?usp=share_link), the data has to be downloaded from Google Drive and added to the `data` directory. For [NeuralWarp](https://github.com/fdarmon/NeuralWarp#data), it can easily be downloaded with:
+For the DTU dataset, as each method used its own version of the data, we recommend using the indications provided in the integrated repositories. For NeuS, the data has to be downloaded from [here](https://www.dropbox.com/sh/w0y8bbdmxzik3uk/AAAaZffBiJevxQzRskoOYcyja?dl=0) and added to the `data` directory. For [NeuralWarp](https://github.com/fdarmon/NeuralWarp#data), it can easily be downloaded with:
 ```
 ./NeuralWarp/download_dtu.sh
 ```
@@ -34,7 +34,7 @@ cd unisurf
 
 For the Realistic Synthetic 360 (Nerf Synthetic) dataset, we preprocess each scene to fit into the bounding sphere of radius one and compute the source views required for NeuralWarp. The processed data can be downloaded from [here](https://drive.google.com/file/d/18R2gc4Pj4jCrGz-_PC3EELh3h5qXjYff/view?usp=sharing) and added to the `data` directory.
 
-For the BlendedMVS dataset, we advise to use the preprocessed data from [NeuS](https://drive.google.com/file/d/1AnMOSOKeIdjbGp-zAK9udb5yFnx6rRby/view?usp=share_link). For reconstruction using NeuralWarp, the source views have to be computed with the suggested method in the original [repository](https://github.com/fdarmon/NeuralWarp/issues/1#issuecomment-1058269029).  
+For the BlendedMVS dataset, we advise to use the preprocessed data from [NeuS](https://www.dropbox.com/sh/w0y8bbdmxzik3uk/AAAaZffBiJevxQzRskoOYcyja?dl=0). For reconstruction using NeuralWarp, the source views have to be computed with the suggested method in the original [repository](https://github.com/fdarmon/NeuralWarp/issues/1#issuecomment-1058269029).  
 
 ## Training
 
